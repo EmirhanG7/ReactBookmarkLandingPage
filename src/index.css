@@ -12,6 +12,8 @@ html {
 
 body {
     font-family: 'Rubik', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 
@@ -596,6 +598,30 @@ li {list-style: none;}
 .hamburger-menu {display: none;}
 
 .mobile-menu {display: none;}
+@media only screen and (width >= 3840px) {
+    body {
+        zoom: 300%;
+    }
+
+}
+@media only screen and (width >= 2560px) {
+    body {
+        zoom: 200%;
+    }
+    
+}
+@media only screen and (width >= 1920px) {
+    body {
+        zoom: 150%;
+    }
+}
+
+@media only screen and (width >= 1440px) {
+    body {
+        zoom: 115%;
+    }
+}
+
 
 @media only screen and (max-width: 600px){
 
