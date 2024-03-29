@@ -5,7 +5,6 @@ import Footer from './components/Footer'
 
 function App() {
 
-
   function handleClick() {
     document.querySelector('.hamburger-menu input[name="hamburger-menu"]').checked = false;
   }
